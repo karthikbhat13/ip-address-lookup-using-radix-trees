@@ -2,14 +2,11 @@
 
 #
 #
-# Here is the input file
 # got it from https://moz.com/top500
-# Download this file and and save it as a CSV file
+#
 
 file='top500domains.txt'
 #
-#
-# IFS stands for Input Field Separator
 IFS=","
 
 while read rank url rootd ext mrank trust
